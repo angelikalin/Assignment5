@@ -1,0 +1,98 @@
+/*La Expansion*/
+ /*this style2.css is ONLY for la expansion*/
+
+/*create a sticky navbar*/
+
+div.navbar {
+	overflow: hidden;
+	background-color: #9a8262;
+	padding:90px, 10px;
+	transition: 0.3s;
+	position: fixed;
+	width: 80%;
+	top: 0;
+	z-index: 99;
+}
+
+#navbar a {
+	float: left;
+	color: black;
+	text-align: center;
+	padding:12px;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 20px;
+	border-radius: 4px;
+}
+
+
+body{
+	background-color: rgba(246, 243, 243, 0.57);
+	padding-left: 110px;
+	padding-right: 110px;
+	padding-bottom: 250px;
+
+}
+h1{
+	font-family: 'Crimson Text', serif;
+	font-size: 50px;
+	text-align: center;
+}
+h2 {
+	font-family: 'Noto Serif', serif; 
+	font-size: 44px
+}
+/*
+div{
+	display: inline;
+	text-align: center;
+	font-family: 'Crimson Text', serif;
+	font-size:18px;
+    overflow:scroll;*/
+}
+
+a.href{
+	color: red
+}
+
+.button{
+	background-color: rgba(246, 243, 243, 0.57);
+	color:#7c7c7c;
+	border: 2px solid ##af805e;
+	padding-left: 10px 20px; 
+	text-align: center;
+	font-family: PT+Sans+Narrow;
+	display:inline-block;
+	font-size: 15px;
+	margin-left: 20px;
+}
+
+
+img{
+	border:12px ;
+	padding:15px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+figcaption{
+	font-family:'Crimson Text', serif;
+	text-align: justify;
+}
+
+
+p.lastnote{
+	padding:30px;
+}
+
+h4{
+	font-family: 'Noto Serif', sans-serif;
+	font-size: 14px
+}
+
+p{
+	font-family: 'Noto Serif JP', sans-serif;
+	font-size: 13px;
+}
+
